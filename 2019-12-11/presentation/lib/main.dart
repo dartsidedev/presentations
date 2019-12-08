@@ -1,6 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'package:flutter_markdown/flutter_markdown.dart';
+
+const exampleMarkdown = '''
+# h1 text
+
+## h2 text
+
+Some **text** is very *important*.
+
+```dart
+class CoolClass {
+  final String field;
+}
+```
+
+''';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -41,7 +58,7 @@ class KeyboardDetectorState extends State<KeyboardDetector> {
           title: Text('Hello'),
         ),
         body: Center(
-          child: Text('Vince'),
+          child: MarkdownBody(data: exampleMarkdown),
         ),
       ),
       focusNode: focusNode,
