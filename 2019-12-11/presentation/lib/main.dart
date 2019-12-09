@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:syntax_highlighter/syntax_highlighter.dart'
+    hide SyntaxHighlighter;
 
 const exampleMarkdown = '''
 # h1 text
@@ -34,6 +36,17 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class ImplicitDartSyntaxHighlighter implements SyntaxHighlighter {
+  const ImplicitDartSyntaxHighlighter(this.formatter);
+
+  final DartSyntaxHighlighter formatter;
+
+  @override
+  TextSpan format(String source) {
+    return formatter.format(source);
+  }
+}
+
 class KeyboardDetector extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => KeyboardDetectorState();
@@ -58,7 +71,14 @@ class KeyboardDetectorState extends State<KeyboardDetector> {
           title: Text('Hello'),
         ),
         body: Center(
-          child: MarkdownBody(data: exampleMarkdown),
+          child: MarkdownBody(
+            data: exampleMarkdown,
+            syntaxHighlighter: ImplicitDartSyntaxHighlighter(
+              DartSyntaxHighlighter(
+                SyntaxHighlighterStyle.lightThemeStyle(),
+              ),
+            ),
+          ),
         ),
       ),
       focusNode: focusNode,

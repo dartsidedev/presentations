@@ -8,6 +8,7 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
   flutter_markdown: ^0.3.2
+  syntax_highlighter: ^0.1.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
