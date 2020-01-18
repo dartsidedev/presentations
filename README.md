@@ -45,4 +45,4 @@
 * [Event page - Flutter Munich](https://www.meetup.com/Flutter-Munich/events/265931319/)
 * [Video](https://www.youtube.com/watch?v=diunwwXgMK4&t=218)
 
-[![Vince Varga - Flutter and Dart](https://img.youtube.com/vi/diunwwXgMK4/1.jpg)![Vince Varga - Flutter and Dart](https://img.youtube.com/vi/diunwwXgMK4/2.jpg)![Vince Varga - Flutter and Dart](https://img.youtube.com/vi/diunwwXgMK4/3.jpg)![Vince Varga - Flutter and Dart](https://img.youtube.com/vi/diunwwXgMK4/4.jpg)](https://www.youtube.com/watch?v=diunwwXgMK4&t=218)
+[![Vince Varga - Flutter and Dart](https://img.youtube.com/vi/diunwwXgMK4/1.jpg)![Vince Varga - Flutter and Dart](https://img.youtube.com/vi/diunwwXgMK4/2.jpg)![Vince Varga - Flutter and Dart](https://img.youtube.com/vi/diunwwXgMK4/3.jpg)](https://www.youtube.com/watch?v=diunwwXgMK4&t=218)
