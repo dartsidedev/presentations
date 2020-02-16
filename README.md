@@ -2,7 +2,7 @@
 
 ## Full-stack Dart Development
 
-### Part I (?) - Backend
+### Part I - Backend
 
 > 📍 Isar Valley @ Google Munich 🗓 December 3rd, 2019 🗣 Flutter Munich
 
