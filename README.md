@@ -4,7 +4,7 @@
 
 > 📍 Online 🗓 September, 2021 🗣 Hamburg Flutter and Beyond and Flutter Munich
 
-[🎤  Event page](https://www.meetup.com/Hamburg-Flutter-and-Beyond/events/279297396/) // [📹  Video](https://youtu.be/rjmGjBpOyDw?t=4883)
+[🔖  Google Slides](https://docs.google.com/presentation/d/1HghBFDrM9qQQvYQE0rur9LYga5Kn2oDmNhDKCUqTKrg/edit?usp=sharing) // [🎤  Event page](https://www.meetup.com/Hamburg-Flutter-and-Beyond/events/279297396/) // [📹  Video](https://youtu.be/rjmGjBpOyDw?t=4883)
 
 > Dart's null safety is one of the biggest improvements to the language since the sound type system in Dart 2.0. It eliminates a whole class of bugs, makes code easier to maintain, and results in smaller and faster apps. If you have an existing code base and you want to reap the benefits of sound null safety, you need to migrate your code to null safety. While there are some tools that help with the migration, migrating a bigger codebase while keep shipping new features can be challenging. In this talk, Vince will go through the basics of null safety and will share some of his tips for migrating bigger projects.
 
