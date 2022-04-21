@@ -1,6 +1,30 @@
 # Vince Varga - Presentations about Flutter and Dart
 
-## Dart null safety and migration tips at the Hamburg Flutter and Beyond virtual meetup
+## Dart null safety migration tips
+
+#### Dart migration tips at Flutter Tunisia
+
+[📹  Video](https://www.youtube.com/watch?v=6L9R5BVHKYY&t=4213s)
+
+[![Dart migration tips at Flutter Tunisia](https://img.youtube.com/vi/6L9R5BVHKYY/1.jpg)![Dart migration tips at Flutter Tunisia](https://img.youtube.com/vi/6L9R5BVHKYY/2.jpg)![Dart migration tips at Flutter Tunisia](https://img.youtube.com/vi/6L9R5BVHKYY/3.jpg)](https://www.youtube.com/watch?v=6L9R5BVHKYY)
+
+#### Null safety migration in production with 250K+ daily active users at geekle.us Flutter Global Summit Volume 2.
+
+[📹  Video (sign up and ticket needed)](https://geekle.us/video_cluster/1639668647150x644267197249093600?video=1639750003718x974783240499071700)
+
+> Dart's null safety is one of the biggest improvements to the language since the sound type system in Dart 2.0. It eliminates a whole class of bugs, makes code easier to maintain, and results in smaller and faster apps.
+> 
+> If you have an existing code base and you want to reap the benefits of sound null safety, you need to migrate your code to null safety. While there are some tools that help with the migration, migrating a bigger codebase while keep shipping new features can be challenging. In this talk, after a short null-safety intro, Vince will share some of his tips for migrating bigger projects.
+
+#### Null safety migration in production with 250K+ daily active users at MediaMarkt TechHUB with Flutter Spain
+
+> 📍 Barcelona 🗓 November 23rd, 2021 🗣 Flutter Spain and local meetups
+
+[🎤  Event page](https://www.meetup.com/Flutter-Barcelona/events/282120679/) // [📹  Video](https://www.youtube.com/watch?v=zP0ce5KXT8w&t=3905s)
+
+[![MediaMarkt TechHUB with Flutter Spain](https://img.youtube.com/vi/zP0ce5KXT8w/1.jpg)![MediaMarkt TechHUB with Flutter Spain](https://img.youtube.com/vi/zP0ce5KXT8w/2.jpg)![MediaMarkt TechHUB with Flutter Spain](https://img.youtube.com/vi/zP0ce5KXT8w/3.jpg)](https://www.youtube.com/watch?v=zP0ce5KXT8w)
+
+#### Dart null safety and migration tips at the Hamburg Flutter and Beyond virtual meetup
 
 > 📍 Online 🗓 September, 2021 🗣 Hamburg Flutter and Beyond and Flutter Munich
 
